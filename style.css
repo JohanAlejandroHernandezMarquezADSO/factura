@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+}
+body{
+    background-color: #e1e1e1;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+     -ms-user-select: none;
+    user-select: none;
+}
+.title{
+    color: #0f274b;
+    text-align: center;
+    margin: 40px;
+}
+.main{
+    background-color: white;
+    width: 100vh;
+    height: 170vh;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+
+}
+.header{
+    background-color: white;
+    width: 100%;
+    height: 15%;
+}
+.title-header{
+    background-color: #6fd0f1;
+    width: 50%;
+    height: 25%;
+    z-index: 10px;
+    position: relative;
+    margin-left: 50%;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    bottom: -30px;
+}
+h1{
+    margin-left: 370px;
+    top: 200px;
+    line-height: 190px;
+    color: #003e5f;
+    font-size: 45px;
+}
+.texto{
+    color: black;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+    font-size: 13px;
+}
+.arrows{
+    background-repeat: no-repeat;
+    background-size: 76%;
+    width: 55%;
+    height: 40%;
+    position: relative;
+    bottom: 0px;
+    left: 35px;
+    
+}
+.logo-container{
+    background-image: url(head-img.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 110px;
+    position: relative;
+    
+}
+.logo{
+    background-image: url(logo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 15%;
+    height: 100%;
+    position: absolute;
+    left: 45px;
+    top: 33px;
+}
+.information{
+    
+    width: 100%;
+    height: 13%;
+    
+}
+.circle1{
+    background-image: url(circle1.png);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin-top: 0px;
+}
+.text2{
+    height: 0.2em;
+    margin-left: 50px;
+    margin-top: 70px;
+}
+.decoration1{
+    background-image: url(decoration.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 20%;
+    height: 20%;
+    margin-left: 75%;
+    margin-top: 10%;
+}
+.table-container{
+    width: 100%;
+    height: 55%;
+    background-color: white;
+}
+.table{
+    width: 85%;
+    margin: auto;
+    height: 75%;
+    font-size: 13px;
+    border-collapse: collapse;
+    text-align: left;
+
+}
+.circle2{
+    background-image: url(circle2.png);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 617px;
+    
+}
+td{
+    border-bottom: 1px solid black;
+}
+    
+.qty{
+    border-left: 40px;
+    text-indent: 10px;
+    width: 15%;
+    height: 40px;
+    color: white;
+    background-color: #003e5f;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+.id{
+    width: 55%;
+    color: white;
+    background-color: #003e5f;
+
+}
+.price{
+    width: 25%;
+    margin-left: 100px;
+    color: white;
+    background-color: #003e5f;
+}
+.total{
+    
+    color: white;
+    background-color: #003e5f;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.terms-conditions{
+    width: 35%;
+    height: 15%;
+    margin-left: 5%;
+    position: relative;
+    font-size: 12px;
+    bottom: -20px;
+}
+.total-table-container{
+    background-color: white;
+    width: 30%;
+    height: 20%;
+    margin-left: 420px;
+    margin-top: -100px;
+    position: relative;
+}
+
+.sub{
+    border-left: 40px;
+    
+    width: 60%;
+    height: 40px;
+    color: black;
+    border-bottom: 1px solid white;
+}
+.total1{
+    border-left: 40px;
+    
+    width: 20%;
+    height: 20px;
+    color: black;
+    background-color: white;
+    border-bottom: 1px solid white;
+}
+
+.tax{
+    border-left: 40px;
+    
+    width: 80%;
+    height: 40px;
+    color: black;
+    border-bottom: 1px solid black;
+}
+.total2{
+    border-left: 40px;
+    
+    width: 20%;
+    height: 20px;
+    color: black;
+    background-color: white;
+    border-bottom: 1px solid black;
+}
+.total3{
+    border-left: 40px;
+    
+    width: 80%;
+    
+    color: black;
+    border-bottom: 1px solid white;
+}
+.total4{
+    border-left: 40px;
+    
+    width: 20%;
+   
+    color: black;
+    background-color: white;
+    border-bottom: 1px solid white;
+
+}
+.footer{
+    background-image: url(parte_abajo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    position: relative; 
+
+}
+.firm{
+    background-color: white;
+    width: 35%;
+    height: 5%;
+    position: relative;
+    margin-left: 3%;
+    border-top: 0.5px solid;
+    text-align: center;
+    padding-top: -15px;
+}
+.footer-info{
+    width: 20%;
+    height: 10%;
+    z-index: 10px;
+    position: relative;
+    margin-left: 460px;
+    margin-top: -30px;
+    color: white;
+}
